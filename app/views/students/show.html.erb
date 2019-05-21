@@ -1,0 +1,5 @@
+<h1>Student Information for <%= @student.to_s %></h1>
+<h2>First name: <%= @student.first_name%></h2>
+<h2>Last name: <%= @student.last_name%></h2>
+<p><%= link_to "Update", edit_student_path(@student)%></p>
+<p><%=link_to "Return to list", students_path %></p>

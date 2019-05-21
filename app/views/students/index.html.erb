@@ -1,0 +1,6 @@
+<h1> Students </h1> 
+	
+	<% @students.each do |student| %> 
+		<h2> <%= link_to student.to_s, student %> </h2>
+		<hr /> 
+	<%end%>
